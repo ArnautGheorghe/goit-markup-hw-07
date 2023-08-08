@@ -114,8 +114,8 @@ text-decoration: none;
 }
 .details-list {
   display: flex;
-  justify-content: center;
-  margin-top: 94px;
+
+  margin-top: 580px;
   margin-bottom: 94px;
   
 
@@ -141,6 +141,8 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
   margin-bottom: 94px;
+  margin-top: 1200px;
+  display: none;
 }
 .intermediar-images > img {
   margin: 15px;
@@ -194,6 +196,9 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 100px;
+ position: absolute;
+z-index: 1;
+top: 1900px;
 }
 .cards-team{
   display: flex;
@@ -321,7 +326,7 @@ background: #F5F4FA;
 
 }
 .icon-item{
-  width: 270px;
+  width: 100%;
 height: 120px;
 background: #F5F4FA;
 display: flex;
@@ -398,6 +403,9 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 94px;
   margin-bottom: 94px;
   color:#AFB1B8;
+  position: absolute;
+  top:3000px;
+  z-index: 1;
 }
 
 .customers-icon-list{
@@ -441,6 +449,8 @@ align-items: center;
 .adress{
   display: flex;
   padding-left: 200px;
+  position: absolute;
+  top:5000px;
 }
 .footer-left-part{
   margin-right: 47px;
@@ -1259,6 +1269,28 @@ line-height: 22px; /* 122.222% */
 letter-spacing: 0.36px;
 text-decoration: none;
 }
+
+
+.title-zone{
+  width: 100%;
+  position: absolute;
+  top: 80px;px;
+ 
+}
+
+.detail-list-item{width: 100%;}
+
+.mobile-attention{
+
+}
+
+.details-area-mobile{
+position: absolute;
+z-index: 2;
+}
+
+
+
 
 @media (min-width: 768px) {
   .menu-toggle {
