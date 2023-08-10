@@ -315,6 +315,11 @@ ul {
   padding: 15px;
   border-top: none;
 }
+
+.icon-detail-list{
+  width: 100%;
+  display: flex;
+}
 .detail-list-item{
   display: flex;
   flex-direction: column;
@@ -1176,7 +1181,7 @@ right: 15px;
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 32px;
+  padding: 32px 0;
   background-color: #fff;
   z-index: 5;
 transform: translateX(100%);
@@ -1276,7 +1281,11 @@ text-decoration: none;
 }
 .menu-mobile-social-links{
   display: flex;
-  gap:10px;
+gap: 10px;
+width: 100%;
+flex-wrap: wrap;
+
+align-items: center;
   
 }
 .deco-line{
