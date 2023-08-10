@@ -114,8 +114,6 @@ text-decoration: none;
 }
 .details-list {
   display: flex;
-
-  margin-top: 580px;
   margin-bottom: 94px;
   
 
@@ -140,8 +138,7 @@ text-decoration: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 94px;
-  margin-top: 1200px;
+ 
   display: none;
 }
 .intermediar-images > img {
@@ -188,6 +185,8 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+   width: 100%;
+  
 }
 .team-zone {
   background: #f5f4fa;
@@ -195,10 +194,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
- position: absolute;
-z-index: 1;
-top: 1900px;
+
 }
 .cards-team{
   display: flex;
@@ -417,9 +413,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 94px;
   margin-bottom: 94px;
   color:#AFB1B8;
-  position: absolute;
-  top:4000px;
-  z-index: 1;
+ 
 }
 
 .customers-icon-list{
@@ -465,8 +459,7 @@ align-items: center;
 .adress{
   display: flex;
   width: 100%;
-  position: absolute;
-  top: 4660px;
+  
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1303,13 +1296,6 @@ text-decoration: none;
 }
 
 
-.title-zone{
-  width: 100%;
-  position: absolute;
-  top: 80px;px;
- 
-}
-
 .detail-list-item{width: 100%;}
 
 .mobile-attention{
@@ -1317,8 +1303,7 @@ text-decoration: none;
 }
 
 .details-area-mobile{
-position: absolute;
-z-index: 2;
+margin-top: 60px;
 }
 
 
