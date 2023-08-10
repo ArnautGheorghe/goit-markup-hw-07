@@ -195,7 +195,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  
  position: absolute;
 z-index: 1;
 top: 1900px;
@@ -203,7 +203,10 @@ top: 1900px;
 .cards-team{
   display: flex;
 flex-direction: column;
-padding: 15px
+padding: 15px;
+align-items: center;
+justify-content: center;
+
  
 }
 .details-cards-team{
@@ -215,6 +218,9 @@ background-color: #fff;
 border-radius: 0px 0px 4px 4px; 
 border: #000;
 border-style: solid;
+}
+.details-cards-team >img{
+  width: 100%;
 }
 .sigla-blue-color {
   color: #2196f3;
