@@ -46,11 +46,11 @@
       <div class="meniu-navigare">
         <div class="tablet-logo-navbar">
           <a href="index.html"
-          ><span class="sigla-blue-color">Web</span
-          ><span class="sigla-black-color">Studio</span>
-        </a>
+            ><span class="sigla-blue-color">Web</span
+            ><span class="sigla-black-color">Studio</span>
+          </a>
         </div>
-        
+
         <div class="sigla-navigations">
           <nav class="navigations">
             <ul>
@@ -94,7 +94,7 @@
       <section class="details-list tablet-details-list">
         <div class="details-area-mobile">
           <div class="icon-detail-list mobile-attention">
-            <div class="detail-list-item ">
+            <div class="detail-list-item">
               <div class="icon-item">
                 <svg>
                   <use href="./icons/symbol-defs.svg#antena"></use>
@@ -189,8 +189,8 @@
       <section class="team-zone">
         <h2 class="title-intermediar">Our team</h2>
 
-        <div class="cards-team">
-          <div class="details-cards-team">
+        <div class="cards-team cards-team-tablet">
+          <div class="details-cards-team details-cards-team-tablet">
             <img src="images/team1.jpg" alt="Christopher Walker" width="270" />
             <div>
               <p class="name-team">Christopher Walker</p>
@@ -231,7 +231,7 @@
             </div>
           </div>
 
-          <div class="details-cards-team">
+          <div class="details-cards-team details-cards-team-tablet">
             <img src="images/team2.jpg" alt="Kylie Evans" width="270" />
             <div>
               <p class="name-team">Kylie Evans</p>
@@ -272,7 +272,7 @@
             </div>
           </div>
 
-          <div class="details-cards-team">
+          <div class="details-cards-team details-cards-team-tablet">
             <img src="images/team3.jpg" alt="Ryan Harris" width="270" />
             <div>
               <p class="name-team">Ryan Harris</p>
@@ -312,7 +312,7 @@
               ></a>
             </div>
           </div>
-          <div class="details-cards-team">
+          <div class="details-cards-team details-cards-team-tablet">
             <img src="images/team4.jpg" alt="Tyler Moore" width="270" />
             <div>
               <p class="name-team">Tyler Moore</p>
@@ -408,56 +408,59 @@
       </section>
     </main>
 
-    <footer class="adress">
-      <div class="footer-left-part">
-        <div class="sigla-footer">
-          <a href="index.html"
-            ><span class="sigla-blue-color">Web</span
-            ><span class="sigla-white-color">Studio</span></a
-          >
+    <footer class="adress adress-tablet">
+      <div class="tablet-section-one">
+        <div class="footer-left-part">
+          <div class="sigla-footer">
+            <a href="index.html"
+              ><span class="sigla-blue-color">Web</span
+              ><span class="sigla-white-color">Studio</span></a
+            >
+          </div>
+          <div class="adress-footer">
+            <address>695 Park Ave, NY 10065, USA</address>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
+            <a href="tel:+12127724150">+1 212-772-4150</a>
+          </div>
         </div>
-        <div class="adress-footer">
-          <address>695 Park Ave, NY 10065, USA</address>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-          <a href="tel:+12127724150">+1 212-772-4150</a>
+        <div class="footer-right-part">
+          <h4 class="title-work">Find us on</h4>
+          <div class="icon-footer-group">
+            <a
+              href="https://www.instagram.com/"
+              class="icon-footer"
+              aria-label="Instagram"
+              ><svg>
+                <use href="./icons/symbol-defs.svg#instagram"></use></svg
+            ></a>
+
+            <a
+              href="https://www.twitter.com/"
+              class="icon-footer"
+              aria-label="Twitter"
+              ><svg>
+                <use href="./icons/symbol-defs.svg#twiter"></use></svg
+            ></a>
+
+            <a
+              href="https://www.facebook.com/"
+              class="icon-footer"
+              aria-label="Facebook"
+              ><svg>
+                <use href="./icons/symbol-defs.svg#facebook"></use></svg
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/"
+              class="icon-footer"
+              aria-label="LinkedIn"
+              ><svg>
+                <use href="./icons/symbol-defs.svg#linkedin"></use></svg
+            ></a>
+          </div>
         </div>
       </div>
-      <div class="footer-right-part">
-        <h4 class="title-work">Find us on</h4>
-        <div class="icon-footer-group">
-          <a
-            href="https://www.instagram.com/"
-            class="icon-footer"
-            aria-label="Instagram"
-            ><svg>
-              <use href="./icons/symbol-defs.svg#instagram"></use></svg
-          ></a>
 
-          <a
-            href="https://www.twitter.com/"
-            class="icon-footer"
-            aria-label="Twitter"
-            ><svg>
-              <use href="./icons/symbol-defs.svg#twiter"></use></svg
-          ></a>
-
-          <a
-            href="https://www.facebook.com/"
-            class="icon-footer"
-            aria-label="Facebook"
-            ><svg>
-              <use href="./icons/symbol-defs.svg#facebook"></use></svg
-          ></a>
-
-          <a
-            href="https://www.linkedin.com/"
-            class="icon-footer"
-            aria-label="LinkedIn"
-            ><svg>
-              <use href="./icons/symbol-defs.svg#linkedin"></use></svg
-          ></a>
-        </div>
-      </div>
       <div class="right-part-form">
         <h2 class="description-form">Subscribe to the newsletter</h2>
         <form action="" class="footer-form">
@@ -467,13 +470,12 @@
             class="news-input-form"
             id="news-tab"
             placeholder="E-mail" />
-            <div class="sendmail-btn">
-              <input type="submit" class="subscribe-btn" value="Subscribe" />
-          <svg class="sendmail">
-            <use href="./icons/symbol-defs.svg#sendmail"></use>
-          </svg>
-            </div>
-          
+          <div class="sendmail-btn">
+            <input type="submit" class="subscribe-btn" value="Subscribe" />
+            <svg class="sendmail">
+              <use href="./icons/symbol-defs.svg#sendmail"></use>
+            </svg>
+          </div>
         </form>
       </div>
     </footer>
